@@ -30,7 +30,7 @@ function App() {
                         {/*yes*/}
                         <ul className="wrapper">
                             <li className="icon facebook">
-                                <span className="tooltip">yes</span>
+                                <span className="tooltip">yesus</span>
                                 <span><i className="fab fa-facebook-f">🤍</i></span>
                             </li>
                         </ul>
