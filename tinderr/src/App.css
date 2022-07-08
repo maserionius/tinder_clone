@@ -1,0 +1,230 @@
+/*.container{*/
+/*  display: grid;*/
+/*  grid-template-columns: repeat(6, 1fr);*/
+/*  grid-template-rows: repeat(5, 1fr);*/
+/*}*/
+
+
+.img {
+  background: #d7e1ec;
+}
+
+
+.App {
+  /*text-align: center;*/
+  /*justify-content: center;*/
+  vertical-align: middle;
+  text-align: center;
+  background: #66ffda;
+}
+
+.dncinGirl {
+  width:300px;
+  height: 500px;
+}
+
+
+
+.yay_nayQestion {
+  height: 40vmin;
+}
+
+.yay{
+  margin-right: 154px;
+  background: #d7e1ec;
+  border: #d7e1ec;
+}
+
+.nay{
+  background: #d7e1ec;
+  border: #d7e1ec;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  place-items: center;
+  background:#d7e1ec;
+          /*linear-gradient(315deg, #ffffff, #d7e1ec);*/
+}
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: lightgreen;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);*/
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #d7e1ec;
+  color: #d7e1ec  ;
+  padding: 5px 8px;
+  border-radius: 5px;
+  /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);*/
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #d7e1ec;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  /*text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);*/
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: lightgreen;
+  color:darkgreen;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: darkred;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wwrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.wwrapper .icon {
+  position: relative;
+  background: #E4405F ;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);*/
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wwrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #d7e1ec;
+  color: #d7e1ec  ;
+  padding: 5px 8px;
+  border-radius: 5px;
+  /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);*/
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wwpper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #d7e1ec;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wwrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wwrapper .icon:hover span,
+.wwrapper .icon:hover .tooltip {
+  /*text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);*/
+}
+
+.wwrapper .facebook:hover,
+.wwrapper .facebook:hover .tooltip,
+.wwrapper .facebook:hover .tooltip::before {
+  background: lightgreen;
+  color:darkgreen;
+}
+
+.wwrapper .instagram:hover,
+.wwrapper .instagram:hover .tooltip,
+.wwrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: darkred;
+}
+
+
