@@ -1,9 +1,4 @@
-.disliked{
-  width: 20%;
-  height: 20%;
-}
-
-.liked{
+.image_final_list{
   width:20%;
   height: 20%;
 }
@@ -19,7 +14,7 @@
   background: #66ffda;
 }
 
-.dncinGirl {
+.image {
   width:100%;
   height: 100%;
 }

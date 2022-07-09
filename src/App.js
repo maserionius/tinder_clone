@@ -22,7 +22,6 @@ function App() {
                             setIndex(index + 1)
                             // setLiked(liked + 1)
                             liked.push(images[index])
-                            console.log('liked', liked, liked.length)
                         }}
                         className='yay'>
                         {/*yes*/}
@@ -36,7 +35,6 @@ function App() {
                     <button onClick={() => {
                         setIndex(index + 1)
                         disliked.push(images[index])
-                        console.log('dislaked', disliked)
                     }}
                             className='nay'>
                         <ul className="wwrapper">
