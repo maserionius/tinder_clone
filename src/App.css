@@ -1,8 +1,12 @@
-/*.container{*/
-/*  display: grid;*/
-/*  grid-template-columns: repeat(6, 1fr);*/
-/*  grid-template-rows: repeat(5, 1fr);*/
-/*}*/
+.disliked{
+  width: 20%;
+  height: 20%;
+}
+
+.liked{
+  width:20%;
+  height: 20%;
+}
 
 .img {
   background: #d7e1ec;
@@ -10,8 +14,6 @@
 
 
 .App {
-  /*text-align: center;*/
-  /*justify-content: center;*/
   vertical-align: middle;
   text-align: center;
   background: #66ffda;
